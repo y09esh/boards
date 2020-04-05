@@ -98,3 +98,4 @@ class NewTopicTests(TestCase):
         form=response.context.get('form')
         self.assertIsInstance(form,NewTopicForm)
 
+
