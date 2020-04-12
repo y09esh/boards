@@ -2,12 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>{% block title %} Boards {% endblock %}</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil"> 
-	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
-	<link rel="stylesheet" href="{% static 'css/app.css' %}">
+    <meta charset="utf-8">
+    <title>{% block title %} Boards {% endblock %}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
     {% block stylesheet %} {% endblock %}
+    {% block javascript %} {% endblock %}
 </head>
 <body>
     {% block body %}
