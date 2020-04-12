@@ -1,0 +1,5 @@
+dj-database-url==0.5.0    -----> pip install dj-database-url
+Django==3.0.4             -----> pip install django  
+django-widget-tweaks==1.4.8
+Markdown==3.2.1           -----> pip install markdown
+python-decouple==3.3      -----> pip install python-decouple
