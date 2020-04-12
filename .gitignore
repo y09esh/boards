@@ -7,3 +7,4 @@ db.sqlite3
 statics
 .DB_Store
 .vs
+.env
