@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default = config('DATABASE_URL')
-        )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
     }
+}
 
 
 # Password validation
